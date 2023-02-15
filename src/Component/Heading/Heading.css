@@ -1,0 +1,13 @@
+.Heading {
+  background-color: #000;
+  padding: 20px 40px;
+  border-radius: 20px;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
+.HeadingTime {
+  margin: 0;
+}

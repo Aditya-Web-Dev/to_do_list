@@ -1,0 +1,64 @@
+.toDoInput {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toDoInput input {
+  padding: 10px 20px;
+
+  background-color: #1e272e00;
+  color: #fff;
+
+  border: none;
+}
+
+.listDisplay li {
+  margin: 10px;
+
+  cursor: pointer;
+}
+
+.toDoInput button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.5rem;
+
+  height: 35px;
+  width: 35px;
+
+  cursor: pointer;
+
+  background-color: #000;
+  border-radius: 100%;
+  border: none;
+  color: #fff;
+}
+
+.toDoInput input::placeholder {
+  color: #fff;
+}
+
+.toDoInput input:active,
+.toDoInput input:focus {
+  outline: none;
+  border: none;
+
+  border-bottom: 3px solid #0fbcf9;
+}
+
+.listTask {
+  display: flex;
+}
+
+.listTask input[type="checkbox"] {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.listTask input[type="checkbox"]:checked {
+  background-color: #000 !important;
+}

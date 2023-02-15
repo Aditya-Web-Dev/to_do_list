@@ -1,0 +1,31 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  width: 100%;
+
+  background: linear-gradient(180deg, #485460 0%, #1e272e 100%);
+  color: #d2dae2;
+
+  cursor: default;
+}
+
+#root {
+  width: 50%;
+}
+
+/* home page */
+.App {
+  font-family: sans-serif;
+
+  width: 90%;
+
+  margin: auto;
+}
